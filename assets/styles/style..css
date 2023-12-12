@@ -1,0 +1,53 @@
+/*------------------------TAGs--------------------------*/
+
+body{
+    background-image: url(../images/background-pattern-desktop.svg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+button > img{
+    width: 15px;
+}
+
+/*--------------------------CLASSES-----------------------*/
+
+.card-faq{
+    width: 45%;
+    margin: 13% auto;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2%;
+    text-shadow: 1px 1px gray;
+    border-radius: 2%;
+
+}
+
+.title-faq{
+    display: flex;
+    padding: 2% 2%;
+    align-items: center;
+}
+
+.title-faq h1{
+    font-size: 3rem;
+    padding-left: 5%;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-question h2{
+    padding-right: 25%;
+}
+
