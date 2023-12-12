@@ -14,13 +14,14 @@ button > img{
 /*--------------------------CLASSES-----------------------*/
 
 .card-faq{
-    width: 45%;
+    width: 50%;
     margin: 13% auto;
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     background-color: hsl(0, 0%, 100%);
     padding: 2%;
-    text-shadow: 1px 1px gray;
     border-radius: 2%;
     box-shadow: 0 6px 10px 3px #888;
 }
@@ -29,16 +30,19 @@ button > img{
     display: flex;
     padding: 2% 2%;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .title-faq h1{
-    font-size: 3rem;
+    font-size: 3.3rem;
     padding-left: 5%;
 }
 
-.question {
+.questions {
     display: flex;
     flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .title-question{
@@ -48,6 +52,10 @@ button > img{
 }
 
 .title-question h2{
-    padding-right: 25%;
+    padding: 5% 30% 1% 0;
+    font-size: 1.3rem;
+    flex-grow: 1;
+
+    
 }
 
