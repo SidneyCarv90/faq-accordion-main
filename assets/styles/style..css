@@ -59,8 +59,21 @@ a > img{
     font-size: 1.3rem;
     flex-grow: 1;
 }
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+    margin-bottom: 1%;
+}
+
+.attribution p{
+    padding: 0 1%;
+}
     
 .desativado{
     display: none;
     overflow: hidden;
 }
+
