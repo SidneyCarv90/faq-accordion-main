@@ -71,6 +71,12 @@ a > img{
 .attribution p{
     padding: 0 1%;
 }
+
+.attribution a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
     
 .desativado{
     display: none;
