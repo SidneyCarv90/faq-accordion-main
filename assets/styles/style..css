@@ -2,8 +2,7 @@
 
 body{
     background-image: url(../images/background-pattern-desktop.svg);
-    background-position: top top;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -11,8 +10,6 @@ a > img{
     width: 30px;
     cursor: pointer;
 }
-
-
 
 /*--------------------------CLASSES-----------------------*/
 
