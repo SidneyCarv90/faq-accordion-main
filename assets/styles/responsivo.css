@@ -52,6 +52,62 @@
 
 }
 
+@media(max-width: 425px) {
+
+    body {
+        background-image: url("../images/background-pattern-mobile.svg");
+        background-size: 100%;
+    }
+
+    .card-faq {
+        width: 90%;
+        margin: 40% auto;
+    }
+
+    .title-faq {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    .title-faq h1 {
+        font-size: 2.2rem;
+        padding-left: 20%;
+    }
+
+    .title-faq img {
+        width: 28px;
+    }
+
+    .title-question h2 {
+        font-size: 1.2rem;
+    }
+
+    .questions p {
+        padding: 8% 0;
+    }
+
+    .attribution{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        width: 100%;
+        margin: 3% auto;
+    }
+
+    .attribution p{
+        margin: 2%;
+    }
+    
+    .attribution p, a{
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+
+}
+
 @media(max-width: 375px) {
 
     body {
