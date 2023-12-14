@@ -10,14 +10,14 @@ const menuAtivado = document.querySelectorAll(".plus")
 const menuDesativado = document.querySelectorAll(".minus")
 const conteudoParagrafo = document.querySelectorAll("p")
 
-for (let i = 0; i < menuAtivado.length; i++){
-    menuAtivado[i].addEventListener("click", function(){
+for (let i = 0; i < menuAtivado.length; i++) {
+    menuAtivado[i].addEventListener("click", function () {
         menuDesativado[i].classList.remove("desativado")
         menuAtivado[i].classList.add("desativado")
-        conteudoParagrafo[i].classList.remove("desativado")      
+        conteudoParagrafo[i].classList.remove("desativado")
     })
-    menuDesativado[i].addEventListener("click", function(){
-        menuDesativado[i].classList.add("desativado") 
+    menuDesativado[i].addEventListener("click", function () {
+        menuDesativado[i].classList.add("desativado")
         menuAtivado[i].classList.remove("desativado")
         conteudoParagrafo[i].classList.add("desativado")
     })
